@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit = no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="generator" content="Gatsby 2.23.12" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Log-In</title>
+</head>
+
+<body>
+    <div class="white-box">
+        <h1 class="heading">Welcome Back :)</h1>
+        <p class="intro">
+            To keep connected with us please login with your personal information by
+            your email address and password 🔔
+        </p>
+
+        <form method="post">
+            <div class="container">
+            <div>
+                <img class="emailIcon" src="email icon.png" />
+                <input id="email" class="email" type="email" placeholder="Email Address" name="email" required />
+            </div>
+                <br />
+
+            <div>
+                <img class="pass-icon" src="password icon 2.jpg" />
+                <input id="pass" class="password" type="text" placeholder="Enter Password" name="psw" required />
+            </div>
+                <br /><br />
+
+                <div>
+                <label class="remember">
+                    <input class="remember" type="checkbox" checked="checked" name="remember" /> Remember me
+                </label>
+                <p class="psw"><a class="p-link" href="#">Forgot Password?</a></p>
+                </div>
+
+
+                <div>
+                <button type="button" class="logbtn" id="logbtn">
+                    Login Now
+                </button>
+
+                <p class="createAcc"><a class="p-link" href="./Sign-up.html">Create Account</a></p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+
+    <!-- Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBw1CDGr65_y7lwJQaOuRrahgkd88NWPaU",
+            authDomain: "core-assignment-crime-reporter.firebaseapp.com",
+            projectId: "core-assignment-crime-reporter",
+            storageBucket: "core-assignment-crime-reporter.appspot.com",
+            messagingSenderId: "561802020559",
+            appId: "1:561802020559:web:63590b0bc75d5a633c99ba",
+            measurementId: "G-HXFZXD1N4E"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        // firebase.analytics();
+    </script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

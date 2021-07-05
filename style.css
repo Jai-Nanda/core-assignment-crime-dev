@@ -1,0 +1,99 @@
+html {
+  margin: 0px;
+}
+
+body {
+  background-color: black /*#3a285c*/;
+}
+
+.white-box {
+  background-color: mintcream;
+  width: 100%;
+  height: auto;
+}
+
+.intro {
+  margin-left: 10px;
+}
+
+.heading {
+  margin-left: 10px;
+}
+
+.container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Full-width inputs */
+input[type="email"] {
+  width: 30%;
+  padding: 10px;
+  border: mintcream solid 1px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 155px;
+  margin-left: 80px;
+}
+
+input[type="text"] {
+  width: 30%;
+  padding: 10px;
+  margin-left: 100px;
+  border: mintcream solid 1px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 255px;
+}
+
+.emailIcon {
+  width: 55px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.pass-icon {
+  width: 35px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: /*#4caf50*/ rgb(38, 116, 219);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.logbtn {
+  width: 20%;
+  border-radius: 20px;
+}
+
+.createAcc {
+  margin-right: 100px;
+  float: right;
+  align-self: center;
+}
+
+.psw {
+  float: right;
+  margin-right: 100px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.p-link {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+}
+
+button:hover {
+  opacity: 0.8;
+}
